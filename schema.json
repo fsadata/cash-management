@@ -1,0 +1,45 @@
+{
+	"fields": [
+		{
+			"name": "InvoiceMonth",
+			"title": "Invoice Month",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "MeatIndustryCash",
+			"title": "Meat Industry Cash",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "MiscAndMilkIndustryCash",
+			"title": "Miscellaneous & Milk Industry Cash",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "RadiologicalCash",
+			"title": "Radiological Cash",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "GovernmentCash",
+			"title": "Government Cash",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
